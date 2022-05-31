@@ -32,7 +32,6 @@
 ## Acerca del proyecto
 
 Se trata de un juego basado en el popular juego CrosyRoad, implementado en C y C++, con las tecnologías OpenGL y GLUT para el manejo de los gráficos 3D. 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 <p align="right">(<a href="#top">Volver al principio</a>)</p>
 
