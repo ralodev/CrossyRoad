@@ -28,7 +28,7 @@ typedef struct {
 
 //Tipo de dato objeto (Automoviles y gallina)
 typedef struct {
-	coord posicion, velocidad;
+	coord posicionInicial, posicion, velocidad;
 	float ultimoMov;
 	bool haChocado;
 }objeto;
@@ -167,15 +167,15 @@ void dibujaCielo() {
 }
 
 void reiniciarPosicion() {
-	gallina.posicion.x = -1.8;
-	gallina.posicion.y = 0;
-	gallina.posicion.z = 0;
+	gallina.posicionInicial.x = gallina.posicion.x = -1.8;
+	gallina.posicionInicial.y = gallina.posicion.y = 0;
+	gallina.posicionInicial.z = gallina.posicion.z = 0;
 }
 
 void retrocedeTantitoDer() {
-	gallina.posicion.x = gallina.posicion.x + 0;
-	gallina.posicion.y = gallina.posicion.y + 0;
-	gallina.posicion.z = gallina.posicion.z - 0.3;
+	gallina.posicion.x = gallina.posicionInicial.x + 0;
+	gallina.posicion.y = gallina.posicionInicial.y + 0;
+	gallina.posicion.z = gallina.posicionInicial.z - 0.3;
 }
 
 void retrocedeTantitoIzq() {
@@ -385,6 +385,20 @@ void dibujarGallina() {
 	dibujaCubo(3.0, 0.4, 1.0);
 	glPopMatrix();
 
+	//Dibuja los ojos del pollito
+	glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, negro);
+	glPushMatrix();
+	glTranslatef(1.0, 4, 2.5);
+	glRotatef(10, 0, 0, 1);
+	dibujaCubo(0.5, 0.5, 0);
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(1.0, 4, -2.5);
+	glRotatef(10, 0, 0, 1);
+	dibujaCubo(0.5, 0.5, 0);
+	glPopMatrix();
+
 	//Dibuja la cresta del pollito	
 	glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, rojo);
 	glPushMatrix();
@@ -455,6 +469,9 @@ void calculaSalto() {
 void setPosicion() {
 	gallina.ultimoMov = variables.tiempo;
 	gallina.posicion.y = 0;
+	gallina.posicionInicial.x = gallina.posicion.x;
+	gallina.posicionInicial.y = gallina.posicion.y;
+	gallina.posicionInicial.z = gallina.posicion.z;
 }
 
 //Crea el carro en el carril i
@@ -657,6 +674,7 @@ void myinit(void)
 	autos[0].ultimoMov = variables.tiempo;
 	glEnable(GL_NORMALIZE);
 
+	gallina.posicionInicial.x = -1.8;
 	gallina.posicion.x = -1.8;
 
 	calculaSalto();
