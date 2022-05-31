@@ -49,7 +49,7 @@ Se trata de un juego basado en el popular juego CrosyRoad, implementado en C y C
 
 
 <!-- GETTING STARTED -->
-## Empezando
+## Comenzando
 
 Este juego es un proyecto .sln, es decir, no se encuentra como un ejecutable standalone, es necesario contar con las librerías y programas correctos para su ejecución.
 
@@ -87,9 +87,9 @@ Si eres arrollado por un auto, regresas al punto de salida.
 
 ### Controles
 * Utiliza las teclas W, A, S, D para girar a la gallina.
-* Usa la barra espaciadora para saltar en la dirección frente a la gallina.
+* Usa la barra espaciadora para que la gallina salte hacia adelante.
 * Haz click izquierdo y mueve el ratón para mover la cámara.
-* Puedes ajustar el Zoom utilizando el click izquierdo y moviendo el mouse de arriba a abajo.
+* Puedes ajustar el zoom haciendo click derecho y moviendo el mouse de arriba a abajo.
 
 ### Objetivo
 * ¡El objetivo es reunir tantos puntos como puedas!
