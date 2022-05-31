@@ -60,9 +60,9 @@ Este juego es un proyecto .sln, es decir, no se encuentra como un ejecutable sta
     disponible en https://visualstudio.microsoft.com/es/vs/older-downloads/
    ```
 * Librerías y archivos .dll
-```sh
+  ```sh
     Se encuentran dentro del proyecto
-```  
+  ```  
 
 ### Instalación
 
