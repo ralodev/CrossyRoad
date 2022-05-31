@@ -54,7 +54,7 @@ There are many great README templates available on GitHub; however, I didn't fin
 
 Este juego es un proyecto .sln, es decir, no se encuentra como un ejecutable standalone, es necesario contar con las librerías y programas correctos para su ejecución.
 
-### Prerequisitos
+### Prerrequisitos
 
 * Visual Studio Community
     disponible en https://visualstudio.microsoft.com/es/vs/older-downloads/
