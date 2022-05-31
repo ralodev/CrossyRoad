@@ -1,0 +1,8 @@
+﻿  Source.cpp
+x:\github\crossyroad-3d\crossyroad\crossyroad\source.cpp(51): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+x:\github\crossyroad-3d\crossyroad\crossyroad\source.cpp(70): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+x:\github\crossyroad-3d\crossyroad\crossyroad\source.cpp(73): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+x:\github\crossyroad-3d\crossyroad\crossyroad\source.cpp(76): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+x:\github\crossyroad-3d\crossyroad\crossyroad\source.cpp(78): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+  CrossyRoad.vcxproj -> X:\GitHub\CrossyRoad-3D\CrossyRoad\Debug\CrossyRoad.exe
+  CrossyRoad.vcxproj -> X:\GitHub\CrossyRoad-3D\CrossyRoad\Debug\CrossyRoad.pdb (Partial PDB)
