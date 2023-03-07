@@ -62,7 +62,7 @@ The game has a simple mechanic: help the chicken cross the road. You gain points
 This project is licensed under the GNU GPL 3.0 License. See the LICENSE.txt file for more information.
 
 ### Authors
-- [Jaanaip](https://github.com/jaanaip)
+- [notSavannah](https://github.com/notSavannah)
 - [Ralo-dev](https://github.com/ralo-dev)
 
 ### Sources
