@@ -8,13 +8,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+[![License: GPL v3.0](https://img.shields.io/badge/License-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![C](https://img.shields.io/badge/Language-C-blue)
+![C++](https://img.shields.io/badge/Language-C++-blue)
+![OpenGL](https://img.shields.io/badge/Technology-OpenGL-red)
+![GLUT](https://img.shields.io/badge/Technology-GLUT-red)
+![Visual Studio Community](https://img.shields.io/badge/IDE-Visual%20Studio%20Community-blue)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -27,119 +26,48 @@
 </div>
 
 
+# CrossyRoad
 
-<!-- ABOUT THE PROJECT -->
-## Acerca del proyecto
-
-Se trata de un juego basado en el popular juego CrosyRoad, implementado en C y C++, con las tecnologías OpenGL y GLUT para el manejo de los gráficos 3D. 
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-### Creado con
-
-* [C](https://www.learn-c.org/)
-* [C++](https://isocpp.org/)
-* [OpenGL](https://www.opengl.org/)
-* [GLUT](https://www.opengl.org/resources/libraries/glut/glut_downloads.php)
-* [Visual Studio Community](https://visualstudio.microsoft.com/es/vs/older-downloads/)
-* [GitHub](https://github.com)
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
+A game based on the popular game Crossy Road, developed in C and C++ using OpenGL and GLUT for 3D graphics. It was created to pass the 3D Graphics `(SCC-1010)` subject in the Computer Systems Engineering career.
 
 
+## Getting started
+CrossyRoad is a .sln project, so it needs to be run from an IDE.
+This game is a .sln project, meaning it is not a standalone executable. You need to have the correct libraries (included in the project) and the Visual Studio IDE installed to run it.
 
-<!-- GETTING STARTED -->
-## Comenzando
+### Prerequisites
+- Visual Studio Community (available at https://visualstudio.microsoft.com/es/vs/older-downloads/)
+- Required libraries and .dll files are included in the project.
 
-Este juego es un proyecto .sln, es decir, no se encuentra como un ejecutable standalone, es necesario contar con las librerías y programas correctos para su ejecución.
+### Installation
+Once you have Visual Studio Community installed:
+1. Clone or download the repository
+```
+git clone https://github.com/ralo-dev/CrossyRoad.git
+```
+2. Open the project in Visual Studio by double-clicking on the solution file: CrossyRoad.sln.
+3. Run the project in "DEBUG" mode with x86 architecture using the Local Windows Debugger.
 
-### Prerrequisitos
+## How to Play
 
-* Visual Studio Community
-   ```sh
-    disponible en https://visualstudio.microsoft.com/es/vs/older-downloads/
-   ```
-* Librerías y archivos .dll
-  ```sh
-    Se encuentran dentro del proyecto
-  ```  
+The game has a simple mechanic: help the chicken cross the road. You gain points each time you reach the end of the map. If you get hit by a car, you go back to the starting point.
 
-### Instalación
+### Controls
+- Use W, A, S, D to move the chicken around
+- Use the spacebar to make the chicken jump forward
+- Left-click and move the mouse to move the camera
+- Right-click and move the mouse up and down to adjust the zoom
 
-_Una vez que cuentas con el IDE Visual Studio Community..._
+## License
+This project is licensed under the GNU GPL 3.0 License. See the LICENSE.txt file for more information.
 
-1. Clonar el repositorio o descargarlo en _Code >> Download ZIP_
-   ```sh
-   git clone https://github.com/Raul-Lopez-Cruz/CrossyRoad.git
-   ```
-2. Abre el proyecto en Visual Studio, haciendo doble click en la solución del proyecto: CrossyRoad.sln
-3. Ejecuta el proyecto en modo "DEBUG" con la arquitectura x86 usando el Local Windows Debugger
+### Authors
+- [Jaanaip](https://github.com/jaanaip)
+- [Ralo-dev](https://github.com/ralo-dev)
 
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Cómo jugar
-El juego tiene una mecánica sencilla: Ayudar a la gallina a cruzar la calle.
-Ganas puntos cada vez que llegas al final del mapa.
-Si eres arrollado por un auto, regresas al punto de salida.
-
-### Controles
-* Utiliza las teclas W, A, S, D para girar a la gallina.
-* Usa la barra espaciadora para que la gallina salte hacia adelante.
-* Haz click izquierdo y mueve el ratón para mover la cámara.
-* Puedes ajustar el zoom haciendo click derecho y moviendo el mouse de arriba a abajo.
-
-### Objetivo
-* ¡El objetivo es reunir tantos puntos como puedas!
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-
-<!-- LICENSE -->
-## Licencia
-
-Publicado y distribuido bajo la licencia MIT. Consulta `LICENSE.txt` por más información.
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Autores
-
-- [Raúl López](https://github.com/Raul-Lopez-Cruz)
-- [Jaanai Martinez](https://github.com/jaanaip)
-- [Omar Silverio](https://github.com/omarsilverio)
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Fuentes, referencias y recursos
-
-* [CrossyRoad](https://www.crossyroad.com/)
-* [Learn OpenGL](https://learnopengl.com/)
-* [GL programming](https://www.glprogramming.com/red/index.html)
-* [Khronos.org](https://www.khronos.org/opengl/wiki/OpenGL_Type)
-* [Jumpy Road by @mluder ](https://github.com/mluders/jumpy-road)
-* [Readme guide by @othneildrew](https://github.com/othneildrew/Best-README-Template#contact)
-
-<p align="right">(<a href="#top">Volver al principio</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Raul-Lopez-Cruz/CrossyRoad.svg?style=for-the-badge
-[contributors-url]: https://github.com/Raul-Lopez-Cruz/CrossyRoad/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Raul-Lopez-Cruz/CrossyRoad.svg?style=for-the-badge
-[forks-url]: https://github.com/Raul-Lopez-Cruz/CrossyRoad/network/members
-[stars-shield]: https://img.shields.io/github/stars/Raul-Lopez-Cruz/CrossyRoad.svg?style=for-the-badge
-[stars-url]: https://github.com/Raul-Lopez-Cruz/CrossyRoad/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Raul-Lopez-Cruz/CrossyRoad.svg?style=for-the-badge
-[issues-url]: https://github.com/Raul-Lopez-Cruz/CrossyRoad/issues
-[license-shield]: https://img.shields.io/github/license/Raul-Lopez-Cruz/CrossyRoad.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+### Sources
+- [CrossyRoad](https://www.crossyroad.com/)
+- [Learn OpenGL](https://learnopengl.com/)
+- [GL programming](https://www.glprogramming.com/red/index.html)
+- [OpenGL wiki](https://www.khronos.org/opengl/wiki/OpenGL_Type)
+- [Jumpy Road by mluders](https://github.com/mluders/jumpy-road)
